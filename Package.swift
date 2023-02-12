@@ -12,6 +12,5 @@ let package = Package(
   targets: [
     .target(name: "PathKit", dependencies: [], path: "Sources"),
     .testTarget(name: "PathKitTests", dependencies: ["PathKit", "Spectre"], path:"Tests/PathKitTests")
-  ],
-  swiftLanguageVersions: [3]
+  ]
 )
